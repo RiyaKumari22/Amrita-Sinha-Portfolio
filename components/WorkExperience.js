@@ -3,25 +3,73 @@ import '../styles/WorkExperience.css';
 
 const experiences = [
   {
-    role: "Software Developer Intern",
-    company: "Webnet Technologies",
-    duration: "June 2024 - July,2024",
+    role: "Project Coordinator - Communications and Executive Training",
+    company: "FSR Global",
+    duration: "12/2023 to Present",
+    location:"New Delhi",
     description: [
-      "Developed and optimized full-stack web applications using React.js, Node.js, and MongoDB.",
-      "Implemented dynamic features enhancing UI/UX, improving website performance by 30%.",
-      "Collaborated with cross-functional teams to design scalable solutions and ensure smooth deployments.",
-      "Integrated third-party APIs and improved backend efficiency, reducing response time by 40%."
-    ]
-  },
+     "Disseminating and managing the communications of India Energy Stack progress by the knowledge partner",
+"Developing a comprehensive research output on Women in the Indian Energy Sector",
+"Leading the annual Energy Dozen Initiative - spotlighting the contributions of 12 women",
+"leaders across various domains within the energy sector, involving in-depth interviews and",
+"narrative development to inspire future generations of women in energy",
+"Built and developed the learning management system - Energy Transition Academy",
+"Leading the training wing of the organisation - proposal writing, course development and coordination, digital management",
+"Leading multiple international projects, ensuring consistent branding, streamlined communication, and timely delivery of key outputs",
+"Managing the communications strategy for the Annual Conference of the International Association for Energy Economics (IAEE) since 2024",
+"Managing FSR Global's social media platforms, driving audience growth and engagement through innovative campaigns and interactive content",
+"Conceptualizing and executing online <webinars />in-person conferences, ensuring seamless event delivery and participant interaction"
+]},
   {
-    role: "Software Developer Intern",
-    company: "Taquino India Private Ltd.",
-    duration: "Jun 2023 - Aug 2023",
+    company: "United Nations Women",
+    role: "Young Professional - Communications, IGP & Gender Equality",
+    duration: "o7/2023 to 12/2023",
+    location: "New Delhi",
     description: [
-      "Designed and implemented a Tutor registration section for Coaching Detail using React.js.",
-      "Developed a scalable website for SIS Group Enterprises, optimizing data handling with Express.js.",
-      "Created 10+ REST APIs, enhancing backend performance and reducing response time by 40%.",
-      "Built an admin panel for data management, improving workflow efficiency and system control."
+     "Handled Intergovernmental Communication - social media and event planning.",
+     "Worked closely on Women20 under G20, India.",
+     "Worked on the internal newsletter and social media creatives.",
+     "Handled ministerial conference coordination in regard to G20.",
+     "Worked on Generation Equality Allyships.",
+     "Worked on Profiling 75 women leaders' stories for “हम | When Women Lead”."
+    ]
+  }
+  ,
+   {
+    company: "Ruder Finn Asia",
+    role: "Creative Copywriter",
+    duration: "o1/2023 to 06/2023",
+    location: "New Delhi",
+    description: [
+    "Creative content creation for B2B brands and their thought leaders.",
+    "Coordinating with media for event coverage.",
+    "Working on New Business Ideas - preparing the research and presentation pitch."
+    ]
+  }, {
+    company: "Tata Power",
+    role: "Corporate Communication Executive",
+    duration: "07/2022 - 12/2022",
+    location: "Berhampur, Odisha",
+    description: [
+    "Planned and executed CSR Events  ",
+    "Worked on Information Education Communication Projects",
+    "Handled Internal communication - monthly organizational newsletter and weekly internal",
+    "SANDESH email",
+    "SES, PR, and PO creation on SAP",
+    "Media relations and press notes"
+    ]
+  }, {
+    company: "United Nations Women",
+    role: "Young Professional - Communications, IGP & Gender Equality",
+    duration: "o1/2023 to 06/2023",
+    location: "New Delhi",
+    description: [
+     "Handled Intergovernmental Communication - social media and event planning.",
+     "Worked closely on Women20 under G20, India.",
+     "Worked on the internal newsletter and social media creatives.",
+     "Handled ministerial conference coordination in regard to G20.",
+     "Worked on Generation Equality Allyships.",
+     "Worked on Profiling 75 women leaders' stories for “हम | When Women Lead”."
     ]
   }
 ];

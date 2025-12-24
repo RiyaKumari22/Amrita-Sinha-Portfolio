@@ -8,23 +8,23 @@ const education = [
     duration: "2022-2024",
    
   },
-  {
-    role: "Software Developer Intern",
-    company: "Taquino India Private Ltd.",
-    duration: "Jun 2023 - Aug 2023",
-    description: [
-      "Designed and implemented a Tutor registration section for Coaching Detail using React.js.",
-      "Developed a scalable website for SIS Group Enterprises, optimizing data handling with Express.js.",
-      "Created 10+ REST APIs, enhancing backend performance and reducing response time by 40%.",
-      "Built an admin panel for data management, improving workflow efficiency and system control."
-    ]
+   {
+    role: "Post Graduate Diploma in English Journalism",
+    company: "Indian Institute of Mass Communication",
+    duration: "2021-2022",
+   
+  },  {
+    role: "Bachelors in Journalism & Mass Communication",
+    company: "Amity University",
+    duration: "2018-2021",
+   
   }
-];
+  ];
 
 const Education = () => {
   return (
     <section id="work-experience" className="work-experience">
-      <h2 className="heading">Work <span>Experience</span></h2>
+      <h2 className="heading">Education </h2>
       <div className="experience-list">
         {education.map((education, index) => (
           <div key={index} className="experience-card">
