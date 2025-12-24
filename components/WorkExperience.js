@@ -59,17 +59,17 @@ const experiences = [
     "Media relations and press notes"
     ]
   }, {
-    company: "United Nations Women",
-    role: "Young Professional - Communications, IGP & Gender Equality",
-    duration: "o1/2023 to 06/2023",
-    location: "New Delhi",
+    company: "Blue Whistle Advertising",
+    role: "Executive Copywriter",
+    duration: "01/2021 - 10/2021",
+    location: "Patna, Bihar",
     description: [
-     "Handled Intergovernmental Communication - social media and event planning.",
-     "Worked closely on Women20 under G20, India.",
-     "Worked on the internal newsletter and social media creatives.",
-     "Handled ministerial conference coordination in regard to G20.",
-     "Worked on Generation Equality Allyships.",
-     "Worked on Profiling 75 women leaders' stories for “हम | When Women Lead”."
+   "Coordinate with designers to create creative and engaging social media designs.",
+   "Develop ad-campaign concepts and maintain optimal reach.",
+   "Work with corporate clients and manage the deliverables.",
+   "Worked mainly with food and hospitality clients.",
+   "Came-up with some amazing creative social media copies.",
+   "Developed quirky copies for Moment Marketing/Topical Marketing."
     ]
   }
 ];

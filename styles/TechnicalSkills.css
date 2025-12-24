@@ -1,44 +1,59 @@
 .technical-skills {
-    text-align: center;
-    padding: 3rem 10%;
-    background: #1b1b1b;
-    color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  margin: 60px 0;
+  padding: 0 20px;
 }
 
-.technical-skills h2 {
-    font-size:4rem;
-    margin-bottom: 1.5rem;
-    color: #ffcc00;
+/* Boxes */
+.tools-box,
+.skills-box {
+  background-color: #1e1e1e;   /* removed blue/dark bg */
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;        /* subtle border */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
+/* Hover */
+.tools-box:hover,
+.skills-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
 }
 
-.skill-card {
-    background: #222;
-    padding: 1.5rem;
-    border-radius: 10px;
-    width: 270px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
+/* Headings */
+.tools-box h2,
+.skills-box h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  color: #ffcc00;
+  letter-spacing: 1.2px;
+  border-bottom: 1px solid rgba(255, 204, 0, 0.4);
 }
 
-.skill-card:hover {
-    transform: translateY(-5px);
+/* Text */
+.tools-box p,
+.skills-box p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: white;     /* dark text for light bg */
+  margin: 0;
 }
 
-.skill-card h3 {
-    font-size: 1.8rem;
-    color: #00ffcc;
-    margin-bottom: 0.8rem;
-}
+/* Mobile */
+@media (max-width: 768px) {
+  .technical-skills {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin: 40px 0;
+  }
 
-.skill-card p {
-    font-size: 1.4rem;
-    color: #ddd;
-font-weight: bold;
+  .tools-box,
+  .skills-box {
+    padding: 24px;
+  }
 }

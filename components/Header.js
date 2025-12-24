@@ -24,10 +24,7 @@ const Header = () => {
 
   return (
     <header className={`header ${sticky ? "sticky" : ""}`}>
-      <button onClick={() => scrollToSection("home")}>
-      
-              <img src="../assets/R.png" alt="" />
-      </button>
+     
               <button onClick={() => scrollToSection("home")}>
               </button>
 
@@ -44,6 +41,8 @@ const Header = () => {
         <button onClick={() => scrollToSection("about")}>About</button>
         <button onClick={() => scrollToSection("work-experience")}>Experience</button>
         <button onClick={() => scrollToSection("education")}>Education</button>
+
+        
         <button onClick={() => scrollToSection("contact")}>Contact</button>
       </nav>
     </header>

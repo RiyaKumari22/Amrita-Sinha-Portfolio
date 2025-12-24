@@ -11,17 +11,29 @@ const TechnicalSkills = () => {
   ];
 
   return (
-    <section className="technical-skills">
-      <h2>Technical <span>Skills</span></h2>
-      <div className="skills-container">
-        {skills.map((item, index) => (
-          <div className="skill-card" key={index}>
-            <h3>{item.category}</h3>
-            <p>{item.skills}</p>
-          </div>
-        ))}
-      </div>
-    </section>
+   <section className="technical-skills">
+
+  <div className="tools-box">
+    <h2>TOOLS</h2>
+    <p>
+      Canva, Adobe Premiere Pro, Adobe InDesign, Adobe Photoshop, Google Analytics,
+      Google Trends, WordPress/GoDaddy, Learning Management System, Moodle,
+      HubSpot/MailChimp
+    </p>
+  </div>
+
+  <div className="skills-box">
+    <h2>SKILLS</h2>
+    <p>
+      Strategic Communication, Social Media Management & Analytics, Report Writing,
+      Website Designing, Video/Audio Editing, Photography, Interview & Podcast,
+      Media and Event Management, Media Relation, Stakeholder Management,
+      Crisis Management
+    </p>
+  </div>
+
+</section>
+
   );
 };
 
